@@ -1,0 +1,16 @@
+{
+    "name": "rakeshf/hello-php",
+    "type": "library",
+    "description": "Hello to PHPunit",
+    "keywords": ["php","phpunit","unit testing","tdd"],
+    "homepage": "https://www.php.net",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rakesh Falke",
+            "email": "rakeshfalke@gmail.com",
+            "homepage": "https://github.com/rakeshf",
+            "role": "Developer"
+        }
+    ],
+}
