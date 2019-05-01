@@ -1,0 +1,6 @@
+tests\HelloPHPUnit\Hello
+ [x] Validate say hello return hello
+
+tests\HelloPHPUnit\Temperature
+ [x] Gets average temperature from three service readings
+

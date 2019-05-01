@@ -18,6 +18,24 @@
             "type": "vcs",
             "url": "https://github.com/rakeshf/hello-php-unit.git"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "HelloPHPUnit\\": "src/"
+        }
+    },
+    "require-dev": {
+      "phpunit/phpunit": "*",
+      "mockery/mockery": "^0.9.4"
+    },
+    "autoload-dev": {
+        "files": [
+            "tests/lib/Invoker.php",
+            "tests/Base.php"
+        ]
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit -c phpunit.xml --debug"
+    }
 
 }
