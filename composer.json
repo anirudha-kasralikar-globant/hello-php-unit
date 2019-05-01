@@ -1,5 +1,5 @@
 {
-    "name": "rakeshf/hello-php",
+    "name": "rakeshf/hello-php-unit",
     "type": "library",
     "description": "Hello to PHPunit",
     "keywords": ["php","phpunit","unit testing","tdd"],
