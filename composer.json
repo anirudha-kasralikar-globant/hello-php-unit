@@ -13,4 +13,11 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rakeshf/hello-php-unit.git"
+        }
+    ]
+
 }
