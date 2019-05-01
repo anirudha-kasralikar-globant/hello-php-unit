@@ -4,3 +4,8 @@ tests\HelloPHPUnit\Hello
 tests\HelloPHPUnit\Temperature
  [x] Gets average temperature from three service readings
 
+tests\HelloPHPUnit\User
+ [x] Set password returns true when password successfully set
+ [x] Get user returns user with expected values
+ [x] Get user returns user with expected values with cript
+
