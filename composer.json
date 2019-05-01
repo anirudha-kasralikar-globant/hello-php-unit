@@ -35,7 +35,12 @@
         ]
     },
     "scripts": {
-        "test": "./vendor/bin/phpunit -c phpunit.xml --debug"
+        "behat": "./vendor/bin/behat",
+        "unit": "./vendor/bin/phpunit -c phpunit.xml --debug",
+        "test": [
+            "@unit",
+            "@behat"
+        ]
     },
     "require": {
         "behat/behat": "^3.5"
