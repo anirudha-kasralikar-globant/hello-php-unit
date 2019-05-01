@@ -11,6 +11,7 @@ class HelloTest extends Base
 
     public function testValidateSayHelloReturnHello()
     {
-        $this->assertEquals('Hallo!', SayHello::sayHallo());
+        $sayHello = new SayHello();
+        $this->assertEquals('Hallo!', $sayHello->sayHallo());
     }
 }
