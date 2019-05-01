@@ -36,6 +36,8 @@
     },
     "scripts": {
         "test": "./vendor/bin/phpunit -c phpunit.xml --debug"
+    },
+    "require": {
+        "behat/behat": "^3.5"
     }
-
 }
