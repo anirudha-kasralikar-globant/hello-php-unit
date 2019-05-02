@@ -35,11 +35,17 @@
         ]
     },
     "scripts": {
-        "behat": ".\\vendor\\bin\\behat.bat",
-        "unit": ".\\vendor\\bin\\phpunit.bat -c phpunit.xml --debug",
+        "behat": "./vendor/bin/behat",
+        "unit": "./vendor/bin/phpunit -c phpunit.xml --debug",
+        "behat-dev": ".\\vendor\\bin\\behat.bat",
+        "unit-dev": ".\\vendor\\bin\\phpunit.bat -c phpunit.xml --debug",
         "test": [
             "@unit",
             "@behat"
+        ],
+        "test-dev": [
+            "@unit-dev",
+            "@behat-dev"
         ]
     },
     "require": {
