@@ -12,7 +12,7 @@ use \Mockery;
 
 class TemperatureTest extends Base
 {
-    public function tearDown()
+    public function tearDown(): void
     {
         Mockery::close();
     }

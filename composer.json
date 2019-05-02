@@ -1,5 +1,5 @@
 {
-    "name": "rakeshf/hello-php-unit",
+    "name": "anirudha-kasralikar-globant/hello-php-unit",
     "type": "library",
     "description": "Hello to PHPunit",
     "keywords": ["php","phpunit","unit testing","tdd"],
@@ -16,7 +16,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/rakeshf/hello-php-unit.git"
+            "url": "https://github.com/anirudha-kasralikar-globant/hello-php-unit.git"
         }
     ],
     "autoload": {
@@ -35,8 +35,8 @@
         ]
     },
     "scripts": {
-        "behat": "./vendor/bin/behat",
-        "unit": "./vendor/bin/phpunit -c phpunit.xml --debug",
+        "behat": ".\\vendor\\bin\\behat.bat",
+        "unit": ".\\vendor\\bin\\phpunit.bat -c phpunit.xml --debug",
         "test": [
             "@unit",
             "@behat"
